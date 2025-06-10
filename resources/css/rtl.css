@@ -1,0 +1,38 @@
+/* resources/css/rtl.css */
+
+
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+header .lang{
+    margin-left: 35%;
+}
+
+header nav ul {
+    flex-direction: row;
+}
+
+#registration-form .container .box label{
+    text-align: right;
+}
+
+#registration-form .container .box input[type="tel"] {
+    text-align: right;
+}
+
+#registration-form .left-part h2 {
+    letter-spacing: 0px;
+    font-size: 40px;
+    transform: translateX(50%);
+    top: 0px;
+    /* font-family: "Oi", serif;
+    font-weight: 400;
+    font-style: normal; */
+}
+
+#registration-form .container .box label i {
+    left: 0;
+    right: auto;
+}
